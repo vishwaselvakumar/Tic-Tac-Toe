@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  color:#ff0054;
+}
+.controls{
+  background:#c77dff;
+  
+}
+.display{
+  background:#c77dff;
+}
+.background{
+    height: 100vh;
+    background: #c77dff;
+    padding-top: 1px;
+}
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide {
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+}
+.tile{
+    border: 3px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.playerX {
+    color: red;
+}
+.playerO {
+    color:yellow;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+#reset{
+    background-color: #004225;
+    width:200px;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: #07824c;
+} 
